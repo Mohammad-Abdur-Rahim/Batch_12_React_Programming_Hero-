@@ -11,3 +11,5 @@ let first =0.1;
 let second =0.2;
 let total = first + second ;
 console.log(total.toFixed(2));
+
+// Undefine And Null Different must clear concept....................
