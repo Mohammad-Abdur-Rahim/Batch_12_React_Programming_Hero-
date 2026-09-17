@@ -1,17 +1,17 @@
-const salary = 32000 ;
-const isEngineer = true ;
+// Multi_level condition
 
+const Shopping = 3000 ;
 
-if(salary > 20000 && isEngineer == true){
-    console.log("Real Man Confidence");
+if (Shopping >=5000){
+    const discount = Shopping * 20 /100 ;
+    const payment = Shopping - discount ;
+    console.log("Total Payment :"+payment , "Tk");
+}
+else if (Shopping >=3000){
+    const discount = Shopping * 10 /100 ;
+    const payment = Shopping - discount ;
+    console.log("Total Payment :"+payment , "Tk");
 }
 else{
-    console.log("Depressed man");
+    console.log ("Withoust discount pay"+ Shopping , "Tk");
 }
-
-// if(salary > 20000 || isEngineer == true){
-//     console.log("Real Man Confidence");
-// }
-// else{
-//     console.log("Depressed man");
-// }
