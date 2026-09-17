@@ -8,3 +8,7 @@ const age = 25 ;
 // }  Ternery Operator / Normal Condition
 
 age >=18?console.log("You can vote"):console.log("Not Valid");
+
+
+
+// Complete Module 14 ..................
