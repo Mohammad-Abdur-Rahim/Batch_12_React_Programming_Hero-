@@ -1,17 +1,10 @@
-// Multi_level condition
+const age = 25 ;
 
-const Shopping = 3000 ;
+// if(age >=18){
+//     console.log("You can vote");
+// }
+// else{
+//     console.log("Not Valid");
+// }  Ternery Operator / Normal Condition
 
-if (Shopping >=5000){
-    const discount = Shopping * 20 /100 ;
-    const payment = Shopping - discount ;
-    console.log("Total Payment :"+payment , "Tk");
-}
-else if (Shopping >=3000){
-    const discount = Shopping * 10 /100 ;
-    const payment = Shopping - discount ;
-    console.log("Total Payment :"+payment , "Tk");
-}
-else{
-    console.log ("Withoust discount pay"+ Shopping , "Tk");
-}
+age >=18?console.log("You can vote"):console.log("Not Valid");
