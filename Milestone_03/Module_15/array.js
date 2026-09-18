@@ -1,15 +1,13 @@
 //Array Basic ..........
 
-const numbers = [10,22,34,54,656,89];
+const list = ['Rahim', 'Asif', 'Rakib', 'Imran'];
 
-// numbers.push(15);
-// numbers.pop(15);
-numbers.unshift(15);
-numbers.shift();
+console.log(list.includes('Rahim'));
+console.log(list.includes('Rony'));
 
-console.log(numbers);
+const num = [];
 
+const food = 'ros o golla';
 
-
-// console.log(numbers);
-// console.log(numbers.length);
+console.log(Array.isArray(list));  // Array == True
+console.log(Array.isArray(food));  // Array == False not array
