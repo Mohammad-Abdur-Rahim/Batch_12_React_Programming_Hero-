@@ -1,7 +1,8 @@
-console.log('working');
-
-const numbers = [10,34,53,21,20,90,45];
-console.log(numbers);
-for(const num of numbers){
-    console.log(num);
+// While Loop-------------------------
+let num = 0;
+while(num<5){
+    console.log('looping', num);
+    // num = num + 1 ;
+    // num += 1 ;
+    num++;
 }
