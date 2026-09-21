@@ -1,8 +1,13 @@
 // String & Object ....................
 
-const subject ='Programming';
-const book = 'programming'
+const subject ='javascript';
+let reverse = '';
 
-console.log(subject.slice(0,7));
-console.log(book.split(''));
-console.log(book.includes('g'));
+for(const subjects of subject){
+    reverse = subjects + reverse ;
+    // console.log(subjects);
+}
+console.log(reverse);
+
+
+
