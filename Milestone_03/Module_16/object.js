@@ -1,25 +1,10 @@
-// String & Object ....................
+//  Object ....................
 
-const subject ='javascript';
-let reverse = '';
-
-// for(const subjects of subject){
-//     reverse = subjects + reverse ;
-//     // console.log(subjects);
-// }
-// console.log(reverse);
+const phone ={
+    name : 'samsung',
+    price: 34000,
+    color: 'blue'
+};
 
 
-
-for(let i =0 ; i<subject.length ; i++){
-    const letter = subject[i]
- reverse = letter + reverse ;
-}
-console.log(reverse);
-
-
-const letter = 'Hello';
-const rev = letter.split('').reverse().join('');
-console.log(rev);
-
-
+console.log(phone);
