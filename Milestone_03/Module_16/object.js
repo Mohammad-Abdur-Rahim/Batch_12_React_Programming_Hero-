@@ -15,7 +15,9 @@ const person ={
 };
 
 
-// Nested Object Access...................
+// Loop Object Access...................
 
-console.log(person.nestedObject.company);
-console.log(person.nestedObject['possition']);
+for(const prop in person){
+    console.log(prop);
+    console.log(person[prop]);
+}
