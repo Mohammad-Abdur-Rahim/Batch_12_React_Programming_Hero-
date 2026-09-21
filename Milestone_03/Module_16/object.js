@@ -6,19 +6,16 @@ const person ={
     profession : 'Website Developer',
     salary : 45000,
     married : false ,
-    date : '21 September 2026'
+    date : '21 September 2026',
+    nestedObject : {
+        company : 'Notionhive',
+        possition : 'Wordpress developer',
+        location : 'Uttara sector 11',
+    }
 };
 
-// person.salary = 245000 ; 
-// person['age'] = 27                      // object value update system dot/[]
 
-// // console.log(person);
-// console.log(person.name);            // Dot Notation...
-// console.log(person['age']);         // Bracket notation best practice...
-// console.log(person['salary']);     // Bracket notation best practice...
+// Nested Object Access...................
 
-
-
-
-console.log("Keys Object",Object.keys(person));
-console.log("Values Object",Object.values(person));
+console.log(person.nestedObject.company);
+console.log(person.nestedObject['possition']);
