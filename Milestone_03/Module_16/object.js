@@ -14,8 +14,7 @@ const person ={
     }
 };
 
-
-// Loop Object Access...................
+// Loop Object Access................... End of Module 16............
 
 for(const prop in person){
     console.log(prop);
