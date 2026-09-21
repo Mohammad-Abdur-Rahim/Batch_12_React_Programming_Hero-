@@ -18,3 +18,8 @@ for(let i =0 ; i<subject.length ; i++){
 console.log(reverse);
 
 
+const letter = 'Hello';
+const rev = letter.split('').reverse().join('');
+console.log(rev);
+
+
